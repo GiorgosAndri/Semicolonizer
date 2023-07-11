@@ -14,7 +14,7 @@
 #### Second, I created the index.html where I decided what design and features it will have. I set as background a gold semicolon and added two text areas. 1 for the input on the left and one for the output on the right. I then added the Semicolonize button above the input textarea and the copy button above the output text area.
 
 
-#### Finally, after deciding which variables and buttons will be used, I created the flask application app.py, where user's input is processed and prints user's output where the user can copy it using the copy button.
+#### Finally, after deciding which variables and buttons will be used, I created the flask application app.py, where user's input is processed through our algorithm and prints user's output where the user can copy it using the copy button.
 
 
 
