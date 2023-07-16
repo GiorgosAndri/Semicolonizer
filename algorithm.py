@@ -49,7 +49,7 @@ for i in range(len(lines)):
 
     #Processing typedef and stuct
     if i+1 < len(lines):
-        next = lines[i+1].strip() #fo checking if the next line begins with {
+        next = lines[i+1].strip() #checking if the next line begins with {
     if check_list[0] in ['typedef', 'struct'] and (check_list[-1]=='{' or check_list[-1][-1]=='{' or next[0]=='{'):
         continue
 
